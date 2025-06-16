@@ -36,8 +36,8 @@
 3. Select the palette area by clicking two corners of the palette.
 4. Upload your image.
 5. Watch GarticPainter paint it for you.
-
 ![Usage demo](media/usage.gif)
+
 ---
 
 ## Requirements

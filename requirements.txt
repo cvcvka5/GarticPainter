@@ -1,0 +1,8 @@
+numpy
+opencv-python
+pynput
+pyautogui
+mss
+scikit-image
+pywin32
+winsound-cffi

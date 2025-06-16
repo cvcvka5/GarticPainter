@@ -1,11 +1,11 @@
-# GarticPainter
+# 🎨GarticPainter
 
 **GarticPainter** is an advanced automated drawing tool designed specifically for the online multiplayer drawing game **Gartic Phone**. It captures a selected screen region, converts images to Gartic’s limited color palette, and uses simulated mouse actions to draw pixel-perfect recreations on the game canvas. The tool supports color matching with CIEDE2000 for accuracy and allows stopping the drawing anytime by pressing 'q'.
 
 ---
 
 ## Features
-
+- Neat GUI for usage.
 - Capture custom screen regions for palette and drawing area.
 - Convert arbitrary images to Gartic Phone’s color palette using advanced color matching.
 - Automated drawing with mouse drag simulation.
@@ -31,12 +31,13 @@
 
 ## Usage
 
-1. Run the main script.
-2. Select the palette area by clicking two corners of the palette.
-3. Select the drawing area by clicking two corners of the canvas.
-4. The tool will start drawing the image on the selected region automatically.
-5. Press **`q`** at any time to stop the drawing loop.
+1. Run the main script with: ```streamlit run .\main.py```
+2. Select the drawing area by clicking two corners of the canvas.
+3. Select the palette area by clicking two corners of the palette.
+4. Upload your image.
+5. Watch GarticPainter paint it for you.
 
+![Usage demo](media/usage.gif)
 ---
 
 ## Requirements
